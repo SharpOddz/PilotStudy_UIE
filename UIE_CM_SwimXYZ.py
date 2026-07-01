@@ -43,12 +43,12 @@ for img_path in image_paths:
     bgr_img = cv2.imread(img_path)
     if bgr_img is None:
         continue
-    #Apply Gray World White Balance
-    #balanced_bgr = gray_world_white_balance(bgr_img)
-    #Apply Retinex
-    balanced_bgr = simple_retinex(bgr_img)
     #Resize image to 256x256
-    resized_bgr = cv2.resize(balanced_bgr, (256, 256), interpolation=cv2.INTER_AREA)
+    resized_bgr = cv2.resize(bgr_img, (256, 256), interpolation=cv2.INTER_AREA)
+    #Apply Gray World White Balance
+    #balanced_bgr = gray_world_white_balance(resized_bgr)
+    #Apply Retinex
+    balanced_bgr = simple_retinex(resized_bgr)
     #Convert BGR to RGB for Keras save_img
     final_rgb = cv2.cvtColor(resized_bgr, cv2.COLOR_BGR2RGB)
     #Save image
