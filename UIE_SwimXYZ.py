@@ -7,6 +7,14 @@ import cv2
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import save_img
 
+
+'''
+This files main purpose is to load in the pre-trained deep learning UIE methods 
+and run them through the 600 chosen SwimXYZ frames. 
+Input and Output are folders within Google Drive
+'''
+
+
 #Mount Google Drive
 drive.mount('/content/drive')
 
