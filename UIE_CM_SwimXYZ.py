@@ -4,6 +4,13 @@ import cv2
 import numpy as np
 from tensorflow.keras.preprocessing.image import save_img
 
+'''
+This files main purpose is to perform classical UIE
+on the 600 chosen SwimXYZ frames. 
+Input and Output are folders within Google Drive
+'''
+
+
 #Gray World White Balance
 def gray_world_white_balance(img):
     img_float = img.astype(np.float32)
