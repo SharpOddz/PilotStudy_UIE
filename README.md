@@ -6,6 +6,9 @@ Because a real public underwater swimmer-video dataset with extensive pose label
 
 <img width="1005" height="201" alt="image" src="https://github.com/user-attachments/assets/7fe5bb54-4b64-43ea-b86a-79bd7f4f23ce" />
 
+<img width="1274" height="283" alt="image" src="https://github.com/user-attachments/assets/4f3be3a6-aaba-4789-951a-ed73e0fcfc28" />
+
+
 ## Citation
 Example frames were used from the SwimXYZ dataset.
 
