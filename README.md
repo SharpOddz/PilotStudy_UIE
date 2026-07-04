@@ -8,6 +8,8 @@ Because a real public underwater swimmer-video dataset with extensive pose label
 
 <img width="1274" height="283" alt="image" src="https://github.com/user-attachments/assets/4f3be3a6-aaba-4789-951a-ed73e0fcfc28" />
 
+<img width="750" height="440" alt="image" src="https://github.com/user-attachments/assets/d83a77e5-5d85-494e-93bf-5d447609b71d" />
+
 
 ## Citation
 Example frames were used from the SwimXYZ dataset.
