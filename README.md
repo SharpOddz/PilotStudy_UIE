@@ -1,4 +1,4 @@
-[View Full Report]('Pilot_Study_Report_Colin_Aslett.pdf')
+[View Full Report](Pilot_Study_Report_Colin_Aslett.pdf)
 
 # PilotStudy_UIE
 
